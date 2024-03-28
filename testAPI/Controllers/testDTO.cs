@@ -1,8 +1,9 @@
 ﻿namespace testAPI.Controllers
 {
-    public class testDTO
+    public class TestDTO
     {
-        public string Name { get; set; }
+
+        public string? Name { get; set; }
         public DateTime Date { get; set; }
     }
 }

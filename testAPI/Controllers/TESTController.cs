@@ -7,7 +7,7 @@ namespace testAPI.Controllers
     public class TESTController : ControllerBase
     {
         [HttpPost]
-        public testDTO Get([FromBody] testDTO dto)
+        public TestDTO Get([FromBody] TestDTO dto)
         {
             return dto;
         }
